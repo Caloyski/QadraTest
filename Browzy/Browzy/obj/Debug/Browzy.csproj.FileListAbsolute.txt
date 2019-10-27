@@ -62,3 +62,5 @@ C:\Users\cagfl\Documents\Visual Studio 2019\QadraTest\Browzy\Browzy\obj\Debug\Br
 C:\Users\cagfl\Documents\Visual Studio 2019\QadraTest\Browzy\Browzy\obj\Debug\Browzy.csproj.CopyComplete
 C:\Users\cagfl\Documents\Visual Studio 2019\QadraTest\Browzy\Browzy\obj\Debug\Browzy.dll
 C:\Users\cagfl\Documents\Visual Studio 2019\QadraTest\Browzy\Browzy\obj\Debug\Browzy.pdb
+C:\Users\cagfl\Documents\Visual Studio 2019\QadraTest\Browzy\Browzy\bin\Browzy.Model.dll
+C:\Users\cagfl\Documents\Visual Studio 2019\QadraTest\Browzy\Browzy\bin\Browzy.Model.pdb

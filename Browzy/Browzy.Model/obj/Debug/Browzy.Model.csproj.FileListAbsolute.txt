@@ -1,0 +1,6 @@
+C:\Users\cagfl\Documents\Visual Studio 2019\QadraTest\Browzy\Browzy.Model\bin\Debug\Browzy.Model.dll
+C:\Users\cagfl\Documents\Visual Studio 2019\QadraTest\Browzy\Browzy.Model\bin\Debug\Browzy.Model.pdb
+C:\Users\cagfl\Documents\Visual Studio 2019\QadraTest\Browzy\Browzy.Model\obj\Debug\Browzy.Model.csprojAssemblyReference.cache
+C:\Users\cagfl\Documents\Visual Studio 2019\QadraTest\Browzy\Browzy.Model\obj\Debug\Browzy.Model.csproj.CoreCompileInputs.cache
+C:\Users\cagfl\Documents\Visual Studio 2019\QadraTest\Browzy\Browzy.Model\obj\Debug\Browzy.Model.dll
+C:\Users\cagfl\Documents\Visual Studio 2019\QadraTest\Browzy\Browzy.Model\obj\Debug\Browzy.Model.pdb
