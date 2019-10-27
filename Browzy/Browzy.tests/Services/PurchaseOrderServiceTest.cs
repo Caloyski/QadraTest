@@ -7,6 +7,7 @@ using Browzy.Interfaces.IServices;
 using Browzy.Implementations.Services;
 using Browzy.Model.Entities;
 using System.Linq;
+using FluentAssertions;
 
 namespace Browzy.tests.Services {
 
@@ -34,9 +35,11 @@ namespace Browzy.tests.Services {
             
             //Act
             PurchaseOrderService target = new PurchaseOrderService();
-            target.Purchase(po);
+            var result = target.Purchase(po);
 
             //Assert
+            result.Should().NotBeNull();
+            
 
         }
 
@@ -71,6 +74,7 @@ namespace Browzy.tests.Services {
 
             PurchaseOrder purchaseOrder = new PurchaseOrder();
             purchaseOrder.ID = 1;
+            purchaseOrder.Products = products;
             purchaseOrder.Total = products.Sum(x => x.Price);
             purchaseOrder.Customer = FakeCustomer(MembershipType.Book);
 
