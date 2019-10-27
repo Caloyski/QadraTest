@@ -7,6 +7,6 @@ using System.Threading.Tasks;
 
 namespace Browzy.Interfaces.IServices {
     public interface IPurchaseOrderService {
-        PurchaseOrder Purchase(int customerId, List<Product> products);
+        PurchaseOrder Purchase(PurchaseOrder purchaseOrder);
     }
 }

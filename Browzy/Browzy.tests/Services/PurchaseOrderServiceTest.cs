@@ -6,6 +6,7 @@ using Moq;
 using Browzy.Interfaces.IServices;
 using Browzy.Implementations.Services;
 using Browzy.Model.Entities;
+using System.Linq;
 
 namespace Browzy.tests.Services {
 
@@ -24,13 +25,16 @@ namespace Browzy.tests.Services {
         public void Purchase_WithPassingParams_PurchaseCreated() {
 
             //Arrange
-            Customer customer = FakeCustomer(MembershipType.Book);
+            Customer c = new Customer();
+            Book b = FakeBook_Digital();
             List<Product> products = new List<Product>();
-            products.Add(FakeBook_Digital());
+            products.Add(b);
 
+            PurchaseOrder po = FakePurchaseOrder(products, c);
+            
             //Act
             PurchaseOrderService target = new PurchaseOrderService();
-            target.Purchase(customer.ID, products);
+            target.Purchase(po);
 
             //Assert
 
@@ -50,7 +54,7 @@ namespace Browzy.tests.Services {
 
         }
 
-        private Product FakeBook_Digital() {
+        private Book FakeBook_Digital() {
 
             Book book = new Book();
             book.Title = "Kane and Abel";
@@ -61,6 +65,16 @@ namespace Browzy.tests.Services {
             book.Price = 9.99m;
 
             return book;
+        }
+
+        private PurchaseOrder FakePurchaseOrder(List<Product> products, Customer customer) {
+
+            PurchaseOrder purchaseOrder = new PurchaseOrder();
+            purchaseOrder.ID = 1;
+            purchaseOrder.Total = products.Sum(x => x.Price);
+            purchaseOrder.Customer = FakeCustomer(MembershipType.Book);
+
+            return purchaseOrder;
         }
 
     }
