@@ -11,5 +11,6 @@ namespace Browzy.Model.Entities {
         public int ID { get; set; }
         public float Total { get; set; }
         public Customer Customer { get; set; }
+        public List<Product> Products { get; set; }
     }
 }

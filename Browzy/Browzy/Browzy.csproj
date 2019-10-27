@@ -88,6 +88,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Implementations\Services\PurchaseOrderService.cs" />
+    <Compile Include="Interfaces\IServices\IPurchaseOrderService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Browzy", "Browzy\Browzy.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Browzy.Model", "Browzy.Model\Browzy.Model.csproj", "{27A2F427-E8C1-4A7F-AC8F-63BD16961D78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Browzy.Tests", "Browzy.tests\Browzy.Tests.csproj", "{236C63F7-AF1F-4266-AEEC-F7E13AA4D18F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{27A2F427-E8C1-4A7F-AC8F-63BD16961D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27A2F427-E8C1-4A7F-AC8F-63BD16961D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27A2F427-E8C1-4A7F-AC8F-63BD16961D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{236C63F7-AF1F-4266-AEEC-F7E13AA4D18F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236C63F7-AF1F-4266-AEEC-F7E13AA4D18F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236C63F7-AF1F-4266-AEEC-F7E13AA4D18F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236C63F7-AF1F-4266-AEEC-F7E13AA4D18F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

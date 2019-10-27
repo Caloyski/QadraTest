@@ -12,6 +12,6 @@ namespace Browzy.Model.Entities {
         public string LastName { get; set; }
         public string Email { get; set; }
         public DateTime DateOfBirth { get; set; }
-        public MembershipEnum Membership { get; set; }
+        public MembershipType Membership { get; set; }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Browzy.Model.Entities {
 
-    public enum MembershipEnum {
+    public enum MembershipType {
         Book,
         Video,
         Premium

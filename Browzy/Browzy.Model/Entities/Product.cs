@@ -10,5 +10,6 @@ namespace Browzy.Model.Entities {
         public int ID { get; set; }
         public int Description { get; set; }
         public float Price { get; set; }
+        public bool IsDigital { get; set; }
     }
 }
